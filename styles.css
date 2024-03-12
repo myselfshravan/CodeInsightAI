@@ -1,0 +1,36 @@
+/*#MainMenu {*/
+/*    visibility: hidden;*/
+/*}*/
+
+#ask-the-code-app {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+#ai-driven-resolution-routing {
+    text-align: center;
+}
+
+div[data-testid="stCaptionContainer"] p {
+    text-align: center;
+}
+
+div[data-testid="stPageLink"] {
+    display: flex;
+    justify-content: center;
+}
+
+div[data-testid="stImage"] img {
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+div[data-testid="stAppViewBlockContainer"] {
+    padding-top: 2rem !important;
+}
+
+div[data-testid="stFormSubmitButton"] {
+    display: flex;
+    justify-content: center;
+}
+

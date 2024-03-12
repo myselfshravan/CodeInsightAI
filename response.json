@@ -1,0 +1,2179 @@
+{
+  "payload": {
+    "allShortcutsEnabled": false,
+    "fileTree": {
+      "": {
+        "items": [
+          {
+            "name": ".chainlit",
+            "path": ".chainlit",
+            "contentType": "directory"
+          },
+          {
+            "name": ".idea",
+            "path": ".idea",
+            "contentType": "directory"
+          },
+          {
+            "name": "chroma",
+            "path": "chroma",
+            "contentType": "directory"
+          },
+          {
+            "name": "csv_files",
+            "path": "csv_files",
+            "contentType": "directory"
+          },
+          {
+            "name": "json_files",
+            "path": "json_files",
+            "contentType": "directory"
+          },
+          {
+            "name": "md_files",
+            "path": "md_files",
+            "contentType": "directory"
+          },
+          {
+            "name": "txt_files",
+            "path": "txt_files",
+            "contentType": "directory"
+          },
+          {
+            "name": ".gitignore",
+            "path": ".gitignore",
+            "contentType": "file"
+          },
+          {
+            "name": "README.md",
+            "path": "README.md",
+            "contentType": "file"
+          },
+          {
+            "name": "The_Most_Intense_Negotiation_Between_Hopscotch_Owner_and_Mark_Cuban_Shark_Tank_US_-_YouTube.json",
+            "path": "The_Most_Intense_Negotiation_Between_Hopscotch_Owner_and_Mark_Cuban_Shark_Tank_US_-_YouTube.json",
+            "contentType": "file"
+          },
+          {
+            "name": "app.py",
+            "path": "app.py",
+            "contentType": "file"
+          },
+          {
+            "name": "chainlit.md",
+            "path": "chainlit.md",
+            "contentType": "file"
+          },
+          {
+            "name": "comments_analyse.ipynb",
+            "path": "comments_analyse.ipynb",
+            "contentType": "file"
+          },
+          {
+            "name": "compare_embeddings.py",
+            "path": "compare_embeddings.py",
+            "contentType": "file"
+          },
+          {
+            "name": "create_chunk.py",
+            "path": "create_chunk.py",
+            "contentType": "file"
+          },
+          {
+            "name": "exam_scrape.py",
+            "path": "exam_scrape.py",
+            "contentType": "file"
+          },
+          {
+            "name": "gemini.py",
+            "path": "gemini.py",
+            "contentType": "file"
+          },
+          {
+            "name": "loader_json.py",
+            "path": "loader_json.py",
+            "contentType": "file"
+          },
+          {
+            "name": "main.py",
+            "path": "main.py",
+            "contentType": "file"
+          },
+          {
+            "name": "msrit_exam.py",
+            "path": "msrit_exam.py",
+            "contentType": "file"
+          },
+          {
+            "name": "newloader.ipynb",
+            "path": "newloader.ipynb",
+            "contentType": "file"
+          },
+          {
+            "name": "query_data.py",
+            "path": "query_data.py",
+            "contentType": "file"
+          },
+          {
+            "name": "requirements.txt",
+            "path": "requirements.txt",
+            "contentType": "file"
+          },
+          {
+            "name": "streamlit_ui.py",
+            "path": "streamlit_ui.py",
+            "contentType": "file"
+          },
+          {
+            "name": "test_query.py",
+            "path": "test_query.py",
+            "contentType": "file"
+          },
+          {
+            "name": "url_list.py",
+            "path": "url_list.py",
+            "contentType": "file"
+          },
+          {
+            "name": "utils.py",
+            "path": "utils.py",
+            "contentType": "file"
+          },
+          {
+            "name": "vecdb.py",
+            "path": "vecdb.py",
+            "contentType": "file"
+          },
+          {
+            "name": "webscraper.py",
+            "path": "webscraper.py",
+            "contentType": "file"
+          },
+          {
+            "name": "ycscrape.py",
+            "path": "ycscrape.py",
+            "contentType": "file"
+          },
+          {
+            "name": "ycsgscrape.py",
+            "path": "ycsgscrape.py",
+            "contentType": "file"
+          },
+          {
+            "name": "youtube_comments.json",
+            "path": "youtube_comments.json",
+            "contentType": "file"
+          },
+          {
+            "name": "ytc.html",
+            "path": "ytc.html",
+            "contentType": "file"
+          }
+        ],
+        "totalCount": 33
+      }
+    },
+    "fileTreeProcessingTime": 2.584045,
+    "foldersToFetch": [],
+    "repo": {
+      "id": 764247441,
+      "defaultBranch": "main",
+      "name": "rag-langchain",
+      "ownerLogin": "myselfshravan",
+      "currentUserCanPush": false,
+      "isFork": false,
+      "isEmpty": false,
+      "createdAt": "2024-02-27T18:36:00.000Z",
+      "ownerAvatar": "https://avatars.githubusercontent.com/u/71520844?v=4",
+      "public": true,
+      "private": false,
+      "isOrgOwned": false
+    },
+    "symbolsExpanded": false,
+    "treeExpanded": true,
+    "refInfo": {
+      "name": "main",
+      "listCacheKey": "v0:1709059025.0",
+      "canEdit": false,
+      "refType": "branch",
+      "currentOid": "4e6be45e846df8e043d8af8fe69031d050d44663"
+    },
+    "path": ".gitignore",
+    "currentUser": null,
+    "blob": {
+      "rawLines": [
+        "config.py",
+        "# Created by .ignore support plugin (hsz.mobi)",
+        "### Python template",
+        "# Byte-compiled / optimized / DLL files",
+        "__pycache__/",
+        "*.py[cod]",
+        "*$py.class",
+        "",
+        "# C extensions",
+        "*.so",
+        "",
+        "# Distribution / packaging",
+        ".Python",
+        "env/",
+        "build/",
+        "develop-eggs/",
+        "dist/",
+        "downloads/",
+        "eggs/",
+        ".eggs/",
+        "lib/",
+        "lib64/",
+        "parts/",
+        "sdist/",
+        "var/",
+        "*.egg-info/",
+        ".installed.cfg",
+        "*.egg",
+        "",
+        "# PyInstaller",
+        "#  Usually these files are written by a python script from a template",
+        "#  before PyInstaller builds the exe, so as to inject date/other infos into it.",
+        "*.manifest",
+        "*.spec",
+        "",
+        "# Installer logs",
+        "pip-log.txt",
+        "pip-delete-this-directory.txt",
+        "",
+        "# Unit test / coverage reports",
+        "htmlcov/",
+        ".tox/",
+        ".coverage",
+        ".coverage.*",
+        ".cache",
+        "nosetests.xml",
+        "coverage.xml",
+        "*,cover",
+        ".hypothesis/",
+        "",
+        "# Translations",
+        "*.mo",
+        "*.pot",
+        "",
+        "# Django stuff:",
+        "*.log",
+        "local_settings.py",
+        "",
+        "# Flask stuff:",
+        "instance/",
+        ".webassets-cache",
+        "",
+        "# Scrapy stuff:",
+        ".scrapy",
+        "",
+        "# Sphinx documentation",
+        "docs/_build/",
+        "",
+        "# PyBuilder",
+        "target/",
+        "",
+        "# IPython Notebook",
+        ".ipynb_checkpoints",
+        "",
+        "# pyenv",
+        ".python-version",
+        "",
+        "# celery beat schedule file",
+        "celerybeat-schedule",
+        "",
+        "# dotenv",
+        ".env",
+        "",
+        "# virtualenv",
+        "venv/",
+        "ENV/",
+        "",
+        "# Spyder project settings",
+        ".spyderproject",
+        "",
+        "# Rope project settings",
+        ".ropeproject",
+        "[Bb]in",
+        "[Ii]nclude",
+        "[Ll]ib",
+        "[Ll]ib64",
+        "[Ll]ocal",
+        "[Ss]cripts",
+        "pyvenv.cfg",
+        ".venv",
+        "pip-selfcheck.json",
+        "",
+        "# User-specific stuff",
+        ".idea/**/workspace.xml",
+        ".idea/**/tasks.xml",
+        ".idea/**/usage.statistics.xml",
+        ".idea/**/dictionaries",
+        ".idea/**/shelf",
+        "",
+        "# AWS User-specific",
+        ".idea/**/aws.xml",
+        "",
+        "# Generated files",
+        ".idea/**/contentModel.xml",
+        "",
+        "# Sensitive or high-churn files",
+        ".idea/**/dataSources/",
+        ".idea/**/dataSources.ids",
+        ".idea/**/dataSources.local.xml",
+        ".idea/**/sqlDataSources.xml",
+        ".idea/**/dynamic.xml",
+        ".idea/**/uiDesigner.xml",
+        ".idea/**/dbnavigator.xml",
+        "",
+        "# Gradle",
+        ".idea/**/gradle.xml",
+        ".idea/**/libraries",
+        "",
+        "# Gradle and Maven with auto-import",
+        "# When using Gradle or Maven with auto-import, you should exclude module files,",
+        "# since they will be recreated, and may cause churn.  Uncomment if using",
+        "# auto-import.",
+        "# .idea/artifacts",
+        "# .idea/compiler.xml",
+        "# .idea/jarRepositories.xml",
+        "# .idea/modules.xml",
+        "# .idea/*.iml",
+        "# .idea/modules",
+        "# *.iml",
+        "# *.ipr",
+        "",
+        "# CMake",
+        "cmake-build-*/",
+        "",
+        "# Mongo Explorer plugin",
+        ".idea/**/mongoSettings.xml",
+        "",
+        "# File-based project format",
+        "*.iws",
+        "",
+        "# IntelliJ",
+        "out/",
+        "",
+        "# mpeltonen/sbt-idea plugin",
+        ".idea_modules/",
+        "",
+        "# JIRA plugin",
+        "atlassian-ide-plugin.xml",
+        "",
+        "# Cursive Clojure plugin",
+        ".idea/replstate.xml",
+        "",
+        "# SonarLint plugin",
+        ".idea/sonarlint/",
+        "",
+        "# Crashlytics plugin (for Android Studio and IntelliJ)",
+        "com_crashlytics_export_strings.xml",
+        "crashlytics.properties",
+        "crashlytics-build.properties",
+        "fabric.properties",
+        "",
+        "# Editor-based Rest Client",
+        ".idea/httpRequests",
+        "",
+        "# Android studio 3.1+ serialized cache file",
+        ".idea/caches/build_file_checksums.ser",
+        "",
+        "# idea folder, uncomment if you don\'t need it",
+        "# .idea",
+        "",
+        ".streamlit/secrets.toml",
+        "",
+        "input_files",
+        "output_files",
+        "chromedriver.exe",
+        "",
+        "data_exa.json",
+        "data_new.json",
+        "output_files/incorrect_match_output.csv",
+        "output_files/score_data.json",
+        "output_files/score_data_exa.json"
+      ],
+      "stylingDirectives": [
+        [
+          {
+            "start": 0,
+            "end": 9,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 46,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 19,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 39,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 11,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 4,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "cssClass": "pl-c1"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 10,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 14,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 4,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 26,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 7,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 3,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 12,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 4,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 9,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 4,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 3,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 3,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 10,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 14,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 5,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 13,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 69,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 79,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 10,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 6,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 16,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 11,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 29,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 30,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 7,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 4,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 9,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 10,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 10,
+            "end": 11,
+            "cssClass": "pl-k"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 6,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 13,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 12,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 7,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 11,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 14,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 4,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 5,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 15,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 5,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 17,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 14,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 8,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 16,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 15,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 7,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 22,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 4,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 5,
+            "end": 11,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 11,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 6,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 18,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 18,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 7,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 15,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 27,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 19,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 8,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 4,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 12,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 4,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 3,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 25,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 14,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 23,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 12,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 1,
+            "end": 3,
+            "cssClass": "pl-c1"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 1,
+            "end": 3,
+            "cssClass": "pl-c1"
+          },
+          {
+            "start": 4,
+            "end": 10,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 1,
+            "end": 3,
+            "cssClass": "pl-c1"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 1,
+            "end": 3,
+            "cssClass": "pl-c1"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 1,
+            "end": 3,
+            "cssClass": "pl-c1"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 1,
+            "end": 3,
+            "cssClass": "pl-c1"
+          },
+          {
+            "start": 4,
+            "end": 10,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 10,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 18,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 21,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 22,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 18,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 29,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 21,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 19,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 17,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 25,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 31,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 24,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 30,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 27,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 23,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 24,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 8,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 18,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 35,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 79,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 72,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 14,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 17,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 20,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 27,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 19,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 13,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 15,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 7,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 7,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 7,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 12,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "cssClass": "pl-k"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 23,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 9,
+            "end": 26,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 27,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-k"
+          },
+          {
+            "start": 1,
+            "end": 5,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 10,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 3,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 27,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 13,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 13,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 24,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 24,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 19,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 18,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 15,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 54,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 34,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 22,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 28,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 17,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 26,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 18,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 43,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 5,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 13,
+            "end": 37,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 45,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 7,
+            "cssClass": "pl-c"
+          },
+          {
+            "start": 0,
+            "end": 1,
+            "cssClass": "pl-c"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 10,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 11,
+            "end": 23,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 11,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 12,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 16,
+            "cssClass": "pl-e"
+          }
+        ],
+        [],
+        [
+          {
+            "start": 0,
+            "end": 13,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 13,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 12,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 13,
+            "end": 39,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 12,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 13,
+            "end": 28,
+            "cssClass": "pl-e"
+          }
+        ],
+        [
+          {
+            "start": 0,
+            "end": 12,
+            "cssClass": "pl-e"
+          },
+          {
+            "start": 13,
+            "end": 32,
+            "cssClass": "pl-e"
+          }
+        ]
+      ],
+      "csv": null,
+      "csvError": null,
+      "dependabotInfo": {
+        "showConfigurationBanner": false,
+        "configFilePath": null,
+        "networkDependabotPath": "/myselfshravan/rag-langchain/network/updates",
+        "dismissConfigurationNoticePath": "/settings/dismiss-notice/dependabot_configuration_notice",
+        "configurationNoticeDismissed": null
+      },
+      "displayName": ".gitignore",
+      "displayUrl": "https://github.com/myselfshravan/rag-langchain/blob/main/.gitignore?raw=true",
+      "headerInfo": {
+        "blobSize": "2.8 KB",
+        "deleteTooltip": "You must be signed in to make or propose changes",
+        "editTooltip": "You must be signed in to make or propose changes",
+        "ghDesktopPath": "https://desktop.github.com",
+        "isGitLfs": false,
+        "onBranch": true,
+        "shortPath": "40f417b",
+        "siteNavLoginPath": "/login?return_to=https%3A%2F%2Fgithub.com%2Fmyselfshravan%2Frag-langchain%2Fblob%2Fmain%2F.gitignore",
+        "isCSV": false,
+        "isRichtext": false,
+        "toc": null,
+        "lineInfo": {
+          "truncatedLoc": "191",
+          "truncatedSloc": "152"
+        },
+        "mode": "file"
+      },
+      "image": false,
+      "isCodeownersFile": null,
+      "isPlain": false,
+      "isValidLegacyIssueTemplate": false,
+      "issueTemplate": null,
+      "discussionTemplate": null,
+      "language": "Ignore List",
+      "languageID": 74444240,
+      "large": false,
+      "planSupportInfo": {
+        "repoIsFork": null,
+        "repoOwnedByCurrentUser": null,
+        "requestFullPath": "/myselfshravan/rag-langchain/blob/main/.gitignore",
+        "showFreeOrgGatedFeatureMessage": null,
+        "showPlanSupportBanner": null,
+        "upgradeDataAttributes": null,
+        "upgradePath": null
+      },
+      "publishBannersInfo": {
+        "dismissActionNoticePath": "/settings/dismiss-notice/publish_action_from_dockerfile",
+        "releasePath": "/myselfshravan/rag-langchain/releases/new?marketplace=true",
+        "showPublishActionBanner": false
+      },
+      "rawBlobUrl": "https://github.com/myselfshravan/rag-langchain/raw/main/.gitignore",
+      "renderImageOrRaw": false,
+      "richText": null,
+      "renderedFileInfo": null,
+      "shortPath": null,
+      "symbolsEnabled": true,
+      "tabSize": 8,
+      "topBannersInfo": {
+        "overridingGlobalFundingFile": false,
+        "globalPreferredFundingPath": null,
+        "showInvalidCitationWarning": false,
+        "citationHelpUrl": "https://docs.github.com/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files",
+        "actionsOnboardingTip": null
+      },
+      "truncated": false,
+      "viewable": true,
+      "workflowRedirectUrl": null,
+      "symbols": {
+        "timed_out": false,
+        "not_analyzed": true,
+        "symbols": []
+      }
+    },
+    "copilotInfo": null,
+    "copilotAccessAllowed": false,
+    "csrf_tokens": {
+      "/myselfshravan/rag-langchain/branches": {
+        "post": "MTqGB4wyp8WKPKytoct-4w-x1YGA1HMO4lTtFZMhSHj_6jEzh1MV21Bzn0EHc-kkts0CLdZmo7wiyxL0QQZILw"
+      },
+      "/repos/preferences": {
+        "post": "cifQWPAL4IwgK9HxqLSVeMifAVGeDOz4lXLey0qndAT-pBD8WJXxunSv5aiC99TTDBJQmiWVlrEpSYD1HaOMVg"
+      }
+    }
+  },
+  "title": "rag-langchain/.gitignore at main \xc2\xb7 myselfshravan/rag-langchain"
+}
