@@ -1,4 +1,6 @@
 import os
+import time
+
 import streamlit as st
 from langchain.llms import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
@@ -19,7 +21,8 @@ if "agent" not in st.session_state:
     st.session_state.agent.ANYSCALE_API_KEY = st.secrets.ANYSCALE_API_KEY
 if "respond_id" not in st.session_state: st.session_state.respond_id = None
 if "code_input" not in st.session_state: st.session_state.code_input = ""
-if 'result' not in st.session_state: st.session_state.result = {}
+if "query_text" not in st.session_state: st.session_state.query_text = ""
+if 'result' not in st.session_state: st.session_state.result = ""
 
 
 def reset_session():
@@ -31,6 +34,7 @@ def load_respond(respond):
     st.session_state.respond_id = respond.id
     st.session_state.code_input = respond.get("code_input")
     st.session_state.result = respond.get("respond_text")
+    st.session_state.query_text = respond.get("query_text")
 
 
 def delete_respond(respond):
@@ -38,8 +42,15 @@ def delete_respond(respond):
     respond.reference.delete()
 
 
+def message_stream(text: str):
+    for ch in text:
+        yield ch
+        time.sleep(0.005)
+
+
 with st.sidebar:
     st.markdown(f"<h1 style='color:white;'> Welcome!</h1>", unsafe_allow_html=True)
+    st.divider()
     c1, _ = st.columns([4, 1])
     c1.button(
         "New Respond",
@@ -86,7 +97,13 @@ st.title('Ask the Code App')
 st.markdown('<style>' + open('styles.css').read() + '</style>', unsafe_allow_html=True)
 
 if st.session_state.result:
-    st.code(st.session_state.code_input)
+    with st.expander('Code', expanded=True):
+        st.code(st.session_state.code_input)
+    st.caption('The above code was used to generate the response.')
+    st.divider()
+    st.write('User Query:')
+    st.info(st.session_state.query_text)
+    st.write('AI Response:')
     st.write(st.session_state.result)
 
 else:
@@ -108,9 +125,8 @@ else:
             with st.spinner('Thinking...'):
                 prompt = f"{input_text}\n\n{query_text}\n\n"
                 response = agent.respond(prompt)
-                st.write(response)
-            st.session_state.code_input = input_text
-            st.session_state.api.log(st.session_state.code_input, response, "Ask the Code")
+                st.session_state.code_input = input_text
+                st.session_state.query_text = query_text
+                st.session_state.api.log(input_text, response, query_text, "Ask the Code App")
+            st.write_stream(message_stream(response))
             st.session_state.result = response
-            st.session_state.code_input = query_text
-            st.session_state.respond_id = None

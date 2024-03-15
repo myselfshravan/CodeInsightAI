@@ -4,7 +4,7 @@
 
 #ask-the-code-app {
     text-align: center;
-    padding-bottom: 0px;
+    padding-bottom: 1px;
 }
 
 #ai-driven-resolution-routing {
@@ -22,7 +22,7 @@ div[data-testid="stPageLink"] {
 
 div[data-testid="stImage"] img {
     border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 1px 2px 5px -1px, rgba(0, 0, 0, 0.3) 1px 1px 3px -1px;
 }
 
 div[data-testid="stAppViewBlockContainer"] {
@@ -34,3 +34,10 @@ div[data-testid="stFormSubmitButton"] {
     justify-content: center;
 }
 
+button[data-testid="baseButton-primary"] {
+    color: black;
+}
+
+button[data-testid="baseButton-primary"] p {
+    font-weight: 600;
+}

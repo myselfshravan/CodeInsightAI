@@ -64,11 +64,13 @@ class RespondAPI(API):
             self,
             code_input: str,
             respond_text: str,
+            query_text: str,
             title: str,
     ) -> str:
         log = self.responds.document()
         log.set({
             "code_input": code_input,
+            "query_text": query_text,
             "respond_text": respond_text,
             "title": title,
             "timestamp": int(time.time()),
