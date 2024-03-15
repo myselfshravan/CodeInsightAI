@@ -13,7 +13,7 @@ import firebase_admin
 import pandas as pd
 from firebase_admin import credentials, firestore
 from google.cloud.firestore_v1.base_query import FieldFilter  # noqa
-import chromadb
+# import chromadb
 
 
 class API:
