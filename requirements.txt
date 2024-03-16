@@ -1,5 +1,6 @@
 streamlit
 langchain
+langchain-community
 pandas
 requests
 openai
